@@ -1,0 +1,279 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: One Dot Condensed Bold,Arial Narrow,Arial,Helvetica,sans-serif;
+}
+
+body{
+  background-color: #f6f6f6;
+}
+
+.wrapper{
+  margin: 0 10%;
+  display: flex;
+  justify-content: center;
+  background-color: #006491;
+  color: white;
+  font-size: 0.8em;
+  height: 80px;
+  align-items: center;
+  text-align: center;
+}
+
+.body-wrapper{
+  margin: 0 10%;
+}
+
+.nav{
+background-color: #006491;
+}
+
+.view-local{
+  border: 2px solid white;
+  width: 155px;
+  padding: 6px;
+  border-radius: 5px;
+  margin: 20px;
+  white-space: nowrap;
+}
+
+.reg-nav{
+  height: 100%;
+  transition: 1s;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.reg-nav div{
+  width: 100%;
+  padding: 33px 5px;
+  margin-bottom: 1px;
+  word-wrap: none;
+  align-self: center;
+}
+
+.reg-nav div:hover{
+  background-color: #004666;
+  transition: 1s;
+}
+
+.sign-in{
+  background-color: #004666;
+  padding: 33px 25px;
+  margin-bottom: 1px;
+}
+
+.start-order-div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 10px;
+}
+
+.start-order-div::before{
+  content: " ";
+  display: inline-block;
+  flex: auto;
+  height: 2px;
+  background-color: #dcdcdc;
+}
+
+.start-order-div::after{
+  content: " ";
+  display: inline-block;
+  flex: auto;
+  height: 2px;
+  background-color: #dcdcdc;
+  margin-left: 10px;
+}
+
+.start-text{
+  font-size: 25px;
+  font-weight: 700;
+  color: #006491;
+  padding: 0 30px;
+}
+
+.big-red{
+  background-color: #e31837;
+  color: white;
+  font-size: 16px;
+  padding: 15px 50px;
+  border-radius: 5px;
+}
+
+.or{
+  font-size: 25px;
+  font-style: italic;
+  color: #646464;
+  padding: 0 20px;
+}
+
+.featured-images{
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+
+.feature-1{
+  width: 530px;
+  height: 500px;
+  background-image: url(./featured.jpg);
+  background-repeat: no-repeat;
+  margin: 0px 5px;
+}
+
+.feature-2{
+  height: 600px;
+  width: 300px;
+}
+
+.feature-2-img1{
+  height: 245px;
+  background-image: url(./img1.jpg);
+  background-repeat: no-repeat;
+  margin: 0 10px;
+}
+
+.feature-2-img2{
+  height: 245px;
+  background-image: url(./img2.jpg);
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.changing-text::before{
+  content: " ";
+  display: inline-block;
+  flex: auto;
+  height: 2px;
+  width: 100%;
+  margin: 15px 0;
+  background-color: #dcdcdc;
+}
+
+.changing-text::after{
+  content: " ";
+  display: inline-block;
+  flex: auto;
+  height: 2px;
+  width: 100%;
+  margin: 15px 0;
+  background-color: #dcdcdc;
+}
+
+.changing-text{
+  height: 100px;
+}
+
+.c-text-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.c-icon{
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.c-text1{
+  background-color: #006491;
+  color: white;
+  padding: 8px 30px;
+  font-size: 20px;
+}
+
+.c-text2{
+  color: #006491;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-text{
+  color: #727272;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.menu-img{
+  background-image: url(./menu.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -300px;
+  width: 100%;
+  height: 250px;
+}
+
+.bottom-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 25px 0;
+}
+
+.bottom-nav-text{
+  font-size: 20px;
+  color: #006491;
+  font-weight: 500;
+}
+
+.footer{
+  background-color: #dbdbdb;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+}
+
+.twitter{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #006491; 
+}
+
+.fb{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #004666; 
+}
+
+.insta{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #630091; 
+}
+
+.cocacola{
+  background-image: url(dpz-coke.png);
+  width: 250px;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+
+.cow{
+  background-image: url(./dpz-dairy.png);
+  width: 150px;
+  height: 120px;
+  background-repeat: no-repeat;
+}
